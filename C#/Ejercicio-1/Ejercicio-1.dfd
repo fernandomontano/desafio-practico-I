@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+51
+'Ingresa el precio del artículo que deseas comprar'
+5
+1
+6
+precio
+4
+1
+48
+'Ingresa la cantidad de artículos que comprarás'
+5
+1
+8
+cantidad
+6
+1
+5
+total
+15
+precio*cantidad
+4
+1
+85
+'Pagarás: $',total,' por ',cantidad,' artículo(s) que cuestan $',precio, ' cada uno.'
+1
