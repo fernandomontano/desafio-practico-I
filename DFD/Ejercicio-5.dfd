@@ -1,0 +1,515 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+23
+'Nombre del empleado 1'
+5
+1
+9
+nombreUno
+4
+1
+113
+'Cargo del empleado 1 (digite 1 si es gerente, 2 si es asistente, 3  si es secretario y 4 si cumple otro cargo).'
+5
+1
+8
+cargoUno
+4
+1
+55
+'Digite la cantidad de horas que trabaja el empleado 1'
+5
+1
+8
+horasUno
+7
+0
+1
+13
+horasUno <= 0
+4
+1
+23
+'Nombre del empleado 2'
+5
+1
+9
+nombreDos
+4
+1
+113
+'Cargo del empleado 2 (digite 1 si es gerente, 2 si es asistente, 3  si es secretario y 4 si cumple otro cargo).'
+5
+1
+8
+cargoDos
+4
+1
+55
+'Digite la cantidad de horas que trabaja el empleado 2'
+5
+1
+8
+horasDos
+7
+0
+1
+13
+horasDos <= 0
+4
+1
+23
+'Nombre del empleado 3'
+5
+1
+10
+nombreTres
+4
+1
+113
+'Cargo del empleado 3 (digite 1 si es gerente, 2 si es asistente, 3  si es secretario y 4 si cumple otro cargo).'
+5
+1
+9
+cargoTres
+4
+1
+55
+'Digite la cantidad de horas que trabaja el empleado 3'
+5
+1
+9
+horasTres
+7
+0
+1
+14
+horasTres <= 0
+7
+0
+1
+14
+horasUno > 160
+6
+1
+10
+salarioUno
+15
+(horasUno*9.75)
+13
+6
+1
+10
+salarioUno
+35
+(160*9.75) + ((horasUno-160)*11.50)
+13
+7
+0
+1
+14
+horasDos > 160
+6
+1
+10
+salarioDos
+15
+(horasDos*9.75)
+13
+6
+1
+10
+salarioDos
+35
+(160*9.75) + ((horasDos-160)*11.50)
+13
+7
+0
+1
+15
+horasTres > 160
+6
+1
+11
+salarioTres
+16
+(horasTres*9.75)
+13
+6
+1
+11
+salarioTres
+36
+(160*9.75) + ((horasTres-160)*11.50)
+13
+6
+3
+6
+afpUno
+19
+salarioUno * 0.0525
+6
+afpDos
+19
+salarioDos * 0.0525
+7
+afpTres
+20
+salarioTres * 0.0525
+6
+3
+7
+isssUno
+19
+salarioUno * 0.0688
+7
+isssDos
+19
+salarioDos * 0.0688
+8
+isssTres
+20
+salarioTres * 0.0688
+6
+3
+8
+rentaUno
+17
+salarioUno * 0.10
+8
+rentaDos
+17
+salarioDos * 0.10
+9
+rentaTres
+18
+salarioTres * 0.10
+6
+3
+12
+descuentoUno
+27
+afpUno + isssUno + rentaUno
+12
+descuentoDos
+27
+afpDos + isssDos + rentaDos
+13
+descuentoTres
+30
+afpTres + isssTres + rentaTres
+6
+3
+15
+salarioTotalUno
+25
+salarioUno - descuentoUno
+15
+salarioTotalDos
+25
+salarioDos - descuentoDos
+16
+salarioTotalTres
+27
+salarioTres - descuentoTres
+7
+0
+1
+47
+cargoUno = 1 AND cargoDos = 2 AND cargoTres = 3
+7
+0
+1
+12
+cargoUno = 1
+13
+6
+1
+15
+salarioTotalUno
+42
+salarioTotalUno + (salarioTotalUno * 0.10)
+13
+7
+0
+1
+12
+cargoUno = 2
+13
+6
+1
+15
+salarioTotalUno
+44
+(salarioTotalUno + (salarioTotalUno * 0.05))
+13
+7
+0
+1
+12
+cargoUno = 3
+13
+6
+1
+15
+salarioTotalUno
+42
+salarioTotalUno + (salarioTotalUno * 0.03)
+13
+7
+0
+1
+12
+cargoUno = 4
+13
+6
+1
+15
+salarioTotalUno
+42
+salarioTotalUno + (salarioTotalUno * 0.02)
+13
+7
+0
+1
+12
+cargoDos = 1
+13
+6
+1
+15
+salarioTotalDos
+42
+salarioTotalDos + (salarioTotalDos * 0.10)
+13
+7
+0
+1
+12
+cargoDos = 2
+13
+6
+1
+15
+salarioTotalDos
+42
+salarioTotalDos + (salarioTotalDos * 0.05)
+13
+7
+0
+1
+12
+cargoDos = 3
+13
+6
+1
+15
+salarioTotalDos
+42
+salarioTotalDos + (salarioTotalDos * 0.03)
+13
+7
+0
+1
+12
+cargoDos = 4
+13
+6
+1
+15
+salarioTotalDos
+42
+salarioTotalDos + (salarioTotalDos * 0.02)
+13
+7
+0
+1
+13
+cargoTres = 1
+13
+6
+1
+16
+salarioTotalTres
+44
+salarioTotalTres + (salarioTotalTres * 0.10)
+13
+7
+0
+1
+13
+cargoTres = 2
+13
+6
+1
+16
+salarioTotalTres
+44
+salarioTotalTres + (salarioTotalTres * 0.05)
+13
+7
+0
+1
+13
+cargoTres = 3
+13
+6
+1
+16
+salarioTotalTres
+44
+salarioTotalTres + (salarioTotalTres * 0.03)
+13
+7
+0
+1
+13
+cargoTres = 4
+13
+6
+1
+16
+salarioTotalTres
+44
+salarioTotalTres + (salarioTotalTres * 0.02)
+13
+13
+4
+1
+13
+'NO HAY BONO'
+13
+4
+1
+185
+'Trabajador 1, Nombre: ',nombreUno,'. AFP: $',afpUno,'. ISSS: $',isssUno,'. Renta: $',rentaUno,'. Suma de descuentos: $',descuentoUno,'. El sueldo líquido a pagar es: $',salarioTotalUno
+4
+1
+185
+'Trabajador 2, Nombre: ',nombreDos,'. AFP: $',afpDos,'. ISSS: $',isssDos,'. Renta: $',rentaDos,'. Suma de descuentos: $',descuentoDos,'. El sueldo líquido a pagar es: $',salarioTotalDos
+4
+1
+191
+'Trabajador 3, Nombre: ',nombreTres,'. AFP: $',afpTres,'. ISSS: $',isssTres,'. Renta: $',rentaTres,'. Suma de descuentos: $',descuentoTres,'. El sueldo líquido a pagar es: $',salarioTotalTres
+7
+0
+1
+73
+salarioTotalUno > salarioTotalDos AND salarioTotalDos >= salarioTotalTres
+13
+4
+1
+98
+'El empleado que más dinero gana es: ',nombreUno, '. Y el empleado que menos gana es: ',nombreTres
+13
+7
+0
+1
+74
+salarioTotalUno > salarioTotalTres AND salarioTotalTres >= salarioTotalDos
+13
+4
+1
+97
+'El empleado que más dinero gana es: ',nombreUno, '. Y el empleado que menos gana es: ',nombreDos
+13
+7
+0
+1
+73
+salarioTotalDos > salarioTotalUno AND salarioTotalUno >= salarioTotalTres
+13
+4
+1
+98
+'El empleado que más dinero gana es: ',nombreDos, '. Y el empleado que menos gana es: ',nombreTres
+13
+7
+0
+1
+74
+salarioTotalDos > salarioTotalTres AND salarioTotalTres >= salarioTotalUno
+13
+4
+1
+97
+'El empleado que más dinero gana es: ',nombreDos, '. Y el empleado que menos gana es: ',nombreUno
+13
+7
+0
+1
+73
+salarioTotalTres > salarioTotalUno AND salarioTotalUno >= salarioTotalDos
+13
+4
+1
+98
+'El empleado que más dinero gana es: ',nombreTres, '. Y el empleado que menos gana es: ',nombreDos
+13
+7
+0
+1
+73
+salarioTotalTres > salarioTotalDos AND salarioTotalDos >= salarioTotalUno
+13
+4
+1
+98
+'El empleado que más dinero gana es: ',nombreTres, '. Y el empleado que menos gana es: ',nombreUno
+13
+7
+0
+1
+21
+salarioTotalUno > 300
+13
+6
+1
+8
+contador
+2
++1
+13
+7
+0
+1
+21
+salarioTotalDos > 300
+13
+6
+1
+8
+contador
+11
+contador +1
+13
+7
+0
+1
+22
+salarioTotalTres > 300
+13
+6
+1
+8
+contador
+11
+contador +1
+13
+4
+1
+59
+'El total de empleados que superan los $300 son: ',contador
+13
+13
+13
+13
+13
+13
+1
