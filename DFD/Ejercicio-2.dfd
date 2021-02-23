@@ -1,0 +1,29 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+19
+'Ingrese 4 números'
+5
+1
+46
+numeroUno, numeroDos, numeroTres, numeroCuatro
+6
+2
+4
+suma
+19
+numeroUno+numeroDos
+14
+multiplicacion
+23
+numeroTres*numeroCuatro
+4
+1
+172
+'La suma de los primeros dos números (',numeroUno,' + ', numeroDos,') es: ',suma,'. Y, el producto de los otros dos (',numeroTres,' * ',numeroCuatro,') es: ',multiplicacion
+1
